@@ -1,0 +1,60 @@
+.container-card {
+    background-color: blueviolet;
+    padding: 16px;
+    border-radius: 20px;
+    margin-bottom: 16px; 
+    ;
+   
+
+  }
+  
+  .container-card .header {
+    display: flex;
+    justify-content: flex-end;
+    position: relative; 
+    margin-right: 30px;
+  }
+  
+  .container-card .header .icon {
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .container-card .header .icon:hover {
+    color: gainsboro;
+  }
+  
+  .container-card .body {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+  }
+  
+  .container-card .body .imagen {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container-card .body .datos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    gap: 16px;
+    padding: 16px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
